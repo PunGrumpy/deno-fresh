@@ -4,4 +4,7 @@ import twindConfig from "./twind.config.ts";
 
 export default defineConfig({
   plugins: [twindPlugin(twindConfig)],
+  server: {
+    port: 3000,
+  },
 });
